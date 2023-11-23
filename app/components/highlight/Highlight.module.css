@@ -1,0 +1,10 @@
+.highlight {
+  color: inherit;
+
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-color: var(--foreground-highlight);
+
+  text-decoration-thickness: 0.5rem;
+  text-underline-offset: -0.42rem;
+}

@@ -1,0 +1,16 @@
+/* fixed footer, should still follow page-margin */
+
+.footer {
+  gap: 1rem;
+  display: flex;
+  margin-top: var(--page-margin);
+}
+
+.footer > * {
+  color: var(--foreground-secondary);
+  transition: color 0.2s ease;
+}
+
+.footer > *:hover {
+  color: var(--foreground-primary);
+}

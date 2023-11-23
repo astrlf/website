@@ -1,0 +1,43 @@
+:root {
+  --page-width: 700px;
+  --page-margin: 3rem;
+
+  --font-mono: ui-monospace, var(--font-geist-mono), monospace;
+  --font-sans: ui-sans-serif, var(--font-geist-sans), sans-serif;
+
+  --background-colour: #fff;
+
+  --foreground-primary: #000;
+  --foreground-secondary: #666;
+  --foreground-highlight: #ffc0cb;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  color: var(--foreground-primary);
+  background-color: var(--background-colour);
+
+  margin-top: var(--page-margin);
+  margin-left: var(--page-margin);
+
+  width: calc(var(--page-width) - 2 * var(--page-margin));
+}
+
+section {
+  margin-top: var(--page-margin);
+}
+
+a {
+  color: inherit;
+  font-style: italic;
+}
